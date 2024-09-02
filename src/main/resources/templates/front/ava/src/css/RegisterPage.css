@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/join-gym.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  align-self: center;
+  user-select: none;
+}
+
+.container {
+  width: auto;
+  min-width: 30vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(242, 242, 242, 0.85);
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-field {
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.submit-button {
+  margin: 10px;
+  padding: 5px 20px;
+  font-size: 20px;
+  background-color: #333333;
+  color: #f3f3f3;
+  border-radius: 10px;
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+
+.submit-button:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.submit-button:active {
+  background-color: rgb(81, 81, 81);
+}
+
+@media only screen and (max-width: 780px) {
+  .container {
+    width: 50vw;
+  }
+}

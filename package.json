@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-dropdown-select": "^4.11.2",
+    "react-select": "^5.8.0"
+  }
+}

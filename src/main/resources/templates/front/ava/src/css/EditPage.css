@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.editpage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editpage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.edit-result {
+  border: 2px solid #333;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+}
+
+.edit-box {
+  width: 100%;
+}
+
+.edit-input {
+  border: 2px solid #333;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button-edit {
+  width: 8rem;
+  padding: 10px 25px;
+  margin: 10px;
+  background-color: #333;
+  color: #f3f3f3;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+
+.dealte-acc-edit {
+  background-color: #e71717;
+  border: 1px solid #e71717;
+}
+
+.editpage-container {
+  border: 2px solid #333;
+  padding: 0rem 7rem;
+  border-radius: 10px;
+}

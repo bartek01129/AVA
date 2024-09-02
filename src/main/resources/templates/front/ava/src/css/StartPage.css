@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/login-bg.jpg');
+  background-size: cover;
+}
+
+.start-h1 {
+  user-select: none;
+  pointer-events: none;
+  font-size: 4rem;
+  color: gainsboro;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-start {
+  margin: 50px;
+  padding: 20px;
+  color: #f3f3f3;
+  background-color: #333;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+.button-start:hover {
+  background-color: #484747;
+  transform: scale(1.1);
+}
