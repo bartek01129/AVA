@@ -1,0 +1,23 @@
+gitignore,
+
+MVN, node_modules, wygenerowany automatycznie ie powinien byc na repo
+
+
+
+stworzyc nowy branch "naprawa repo"    - zaktualizowac gitinore tak żeby syf wyzej tam nie był   ----- commit nr 1
+
+
+dokumentacja git delete, kasowac z gita ale nie z PC !!!!!!           ---- commit 2
+
+
+
+**
+Napisz skrypt który generuje syf tak żeby osoba która klonuje repo może Sobie je wygenerwać, ale gitignore nigdy tego nie spushuje
+napisz README jak uruchomić skrypt       ---- commit 3
+
+
+
+
+
+******
+WSL I Docker na pc
