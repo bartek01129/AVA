@@ -1,0 +1,8 @@
+# Ignore .mvn file
+.mvn
+
+# Ignore node_modules
+node_modules
+
+# Ignore txt
+.txt
