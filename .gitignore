@@ -6,3 +6,6 @@ node_modules
 
 # Ignore txt
 .txt
+
+# Ignore pom.xml
+pom
